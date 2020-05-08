@@ -9,3 +9,7 @@ variable "instanceSize" {
 variable "instanceName" {
     default = "PleaseNameMe"
 }
+
+variable "spotInstancePrice" {
+    default = "0.05"
+}
